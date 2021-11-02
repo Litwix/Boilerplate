@@ -16,3 +16,17 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+a {
+  text-decoration: none;
+}
+
+nav a,
+form div {
+  display: inline-block;
+  margin: 1em;
+}
+
+label {
+  display: block;
+}

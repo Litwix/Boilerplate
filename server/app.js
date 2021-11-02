@@ -16,6 +16,7 @@ app.use(express.static(path.join(__dirname, '../public')));
 
 // API routers
 app.use('/api', require('./api'));
+app.use('/auth', require('./auth'));
 
 // Sending index.html
 app.get('*', function (req, res) {

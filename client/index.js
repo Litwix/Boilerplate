@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
+import { BrowserRouter as Router } from 'react-router-dom';
+import App from './components/App';
 import store from './store';
 import '../public/style.css';
 
 ReactDOM.render(
   <Provider store={store}>
-    <div>Hello World</div>
+    <Router>
+      <App />
+    </Router>
   </Provider>,
   document.getElementById('app')
 );
