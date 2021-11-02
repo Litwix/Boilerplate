@@ -1,6 +1,14 @@
 # Boilerplate Code
 
-## Setup and Customization
+## Setup
+
+Create a new git repository on your local machine using `git init`.
+Add this boilerplate code as a remote and merge it into your repository:
+`git remote add boilerplate git@github.com:Litwix/Boilerplate.git`
+`git fetch boilerplate`
+`git merge boilerplate/main`
+
+## Customization
 
 - Update the project name in `package.json`
 - `npm install`
